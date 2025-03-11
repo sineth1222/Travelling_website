@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FaRegHeart, FaRegUser } from "react-icons/fa";
 
 const links = [
     {
@@ -45,4 +44,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Nav;

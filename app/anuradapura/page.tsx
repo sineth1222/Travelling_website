@@ -1,6 +1,6 @@
 //import React from 'react'
 "use client"
-
+import Image from "next/image";
 import Footer from "@/components/Footer";
 //import { useState } from "react";
 
@@ -46,7 +46,7 @@ const page = () => {
   return (
     <>
       <section className="bg-cover bg-center min-h-screen relative"
-                  style={{ backgroundImage: "url('https://jetwingtravels.com/wp-content/uploads/2023/07/Mihinthale-1920-x-1080.jpg')" }}>
+                  style={{ backgroundImage: `url('https://jetwingtravels.com/wp-content/uploads/2023/07/Mihinthale-1920-x-1080.jpg')` }}>
                 </section>
 
                 <section className="relative bg-gray-100 py-16 overflow-hidden">
@@ -72,7 +72,28 @@ const page = () => {
         
         {/* Image Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <img
+        <Image
+          src="https://jetwingtravels.com/wp-content/uploads/2023/08/jaya-sri-maha-bodhi-800-x-500.jpg"
+          alt="Leopard"
+          width={800}
+          height={500}
+          className="w-full h-64 object-cover rounded-lg shadow-md"
+        />
+        <Image
+          src="https://jetwingtravels.com/wp-content/uploads/2023/08/Ruwanwelisaya-Stupa-Anuradhapura-golden-triangle-sri-lanka-800-x-500.jpg"
+          alt="Leopard"
+          width={800}
+          height={500}
+          className="w-full h-64 object-cover rounded-lg shadow-md"
+        />
+        <Image
+          src="https://jetwingtravels.com/wp-content/uploads/2023/08/Mihintale-Anuradhapura-sri-lanka-800-x-500.jpg"
+          alt="Leopard"
+          width={800}
+          height={500}
+          className="w-full h-64 object-cover rounded-lg shadow-md"
+        />
+          {/*<img
             src="https://jetwingtravels.com/wp-content/uploads/2023/08/jaya-sri-maha-bodhi-800-x-500.jpg"
             alt="Leopard"
             className="w-full h-64 object-cover rounded-lg shadow-md"
@@ -86,10 +107,10 @@ const page = () => {
             src="https://jetwingtravels.com/wp-content/uploads/2023/08/Mihintale-Anuradhapura-sri-lanka-800-x-500.jpg"
             alt="Leopard"
             className="w-full h-64 object-cover rounded-lg shadow-md"
-          />
+          />*/}
         </div>{/* Description */}
         <p className="text-gray-700 max-w-2xl mx-auto mb-8">
-          "The epicentre of Sinhalese civilization dating back to 4th century BC, Anuradhapura was the first historical capital of Sri Lanka, and its marvels still radiate greatness. Reigning for over a millennium, the kingdom had 117 rulers who built magnificent palaces, great reservoirs and irrigation systems, pleasure gardens, and Buddhist temples - some, amongst the biggest architectural creations of the ancient world, smaller in size only to the pyramids of Giza."
+          {"The epicentre of Sinhalese civilization dating back to 4th century BC, Anuradhapura was the first historical capital of Sri Lanka, and its marvels still radiate greatness. Reigning for over a millennium, the kingdom had 117 rulers who built magnificent palaces, great reservoirs and irrigation systems, pleasure gardens, and Buddhist temples - some, amongst the biggest architectural creations of the ancient world, smaller in size only to the pyramids of Giza."}
         </p>
 
         {/* Button */}
@@ -152,4 +173,4 @@ const page = () => {
   )
 }
 
-export default page
+export default page;

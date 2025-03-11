@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from "next/link";
+
 
 const Footer = () => {
   return (
@@ -13,11 +15,14 @@ const Footer = () => {
           <div>
             <h4 className="text-base md:text-lg font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-xs md:text-sm">
-            <li><a href="/" className="hover:text-green-300">home</a></li>
+              <li><Link href="/" className="hover:text-green-300">Home</Link></li>
+              <li><Link href="/services" className="hover:text-green-300">Destinations</Link></li>
+              <li><Link href="/resume" className="hover:text-green-300">Packages</Link></li>
+              <li><Link href="/contact" className="hover:text-green-300">Contact</Link></li>
+            {/*<li><a href="/" className="hover:text-green-300">home</a></li>
                 <li><a href="/services" className="hover:text-green-300">destinations</a></li>
               <li><a href="/resume" className="hover:text-green-300">packages</a></li>
-              <li><a href="/contact" className="hover:text-green-300">Contact</a></li>
-              
+              <li><a href="/contact" className="hover:text-green-300">Contact</a></li>*/}             
             </ul>
           </div>
           <div>
@@ -42,4 +47,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

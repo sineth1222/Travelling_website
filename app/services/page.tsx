@@ -1,10 +1,5 @@
 "use client";
 
-import { BsArrowDownRight } from "react-icons/bs"
-import Link from "next/link";
-import { motion } from "framer-motion";
-import { MdOutlineTravelExplore } from "react-icons/md";
-import { Button } from "@/components/ui/button";
 import Socials from "@/components/Socials";
 import DestinationCard from "@/components/DestinationCard";
 import { useState } from "react";
@@ -141,7 +136,7 @@ const Services = () => {
   return (
     <>
     <section className="bg-cover bg-center min-h-screen relative"
-            style={{ backgroundImage: "url('https://jetwingtravels.com/wp-content/uploads/2023/11/Tour-1920x1080-1.jpg')" }}>
+            style={{ backgroundImage: `url('https://jetwingtravels.com/wp-content/uploads/2023/11/Tour-1920x1080-1.jpg')` }}>
             {/*<div className="absolute inset-0 bg-black bg-opacity-50"></div>*/}
             <div className="container mx-auto pt-72 px-4 h-full flex flex-col justify-center items-center text-black">
               <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
@@ -172,7 +167,7 @@ const Services = () => {
       <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 md:mb-8">POPULAR DESTINATIONS</h2>
       <p className="text-lg  mb-8">YOUR ‘MUST-SEE’ PLACES</p>
       <p className=" max-w-2xl mx-auto mb-8">
-          "With myriad places to visit, Sri Lanka is a little paradise isle full of surprising variety. You can swap the chaos of a city for a tranquil beach in an hour or less, or switch from tropical heat to cool heights and cloud forests for a few more. There are mountains to climb, waves to surf, whales to watch, history to revisit, jungles to explore, even elephants to meet. The destinations in Sri Lanka are wide and varied and we’ll gladly share them with you in the very best way."
+          {"With myriad places to visit, Sri Lanka is a little paradise isle full of surprising variety. You can swap the chaos of a city for a tranquil beach in an hour or less, or switch from tropical heat to cool heights and cloud forests for a few more. There are mountains to climb, waves to surf, whales to watch, history to revisit, jungles to explore, even elephants to meet. The destinations in Sri Lanka are wide and varied and we’ll gladly share them with you in the very best way."}
         </p>
       {/*<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {destinations.map((destination, index) => (
@@ -229,4 +224,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Services;

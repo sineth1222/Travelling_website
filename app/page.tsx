@@ -2,6 +2,8 @@ import Footer from "@/components/Footer";
 import Socials from "@/components/Socials";
 import { Button } from "@/components/ui/button"
 import { MdOutlineTravelExplore } from "react-icons/md";
+import Image from "next/image";
+
 
 const Home = () => {
 
@@ -20,7 +22,7 @@ const Home = () => {
 
   return (
                 <><section className="bg-cover bg-center min-h-screen relative"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1506744038136-46273834b3fb')" }}>
+        style={{ backgroundImage: `url('https://images.unsplash.com/photo-1506744038136-46273834b3fb')` }}>
         {/*<div className="absolute inset-0 bg-black bg-opacity-50"></div>*/}
         <div className="container mx-auto pt-72 px-4 h-full flex flex-col justify-center items-center text-black">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
@@ -77,7 +79,8 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {rooms.map((room) => (
             <div key={room.name} className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img src={room.img} alt={room.name} className="w-full h-48 object-cover" />
+              <Image src={room.img} alt={room.name} width={400} height={300} className="w-full h-48 object-cover" />
+              {/*<img src={room.img} alt={room.name} className="w-full h-48 object-cover" />*/}
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800">{room.name}</h3>
                 <p className="text-gray-600">{room.price}</p>
@@ -112,7 +115,28 @@ const Home = () => {
         
         {/* Image Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <img
+          <Image
+                    src="https://jetwingtravels.com/wp-content/uploads/2023/08/jaya-sri-maha-bodhi-800-x-500.jpg"
+                    alt="Leopard"
+                    width={800}
+                    height={500}
+                    className="w-full h-64 object-cover rounded-lg shadow-md"
+                  />
+                  <Image
+                    src="https://jetwingtravels.com/wp-content/uploads/2023/08/Ruwanwelisaya-Stupa-Anuradhapura-golden-triangle-sri-lanka-800-x-500.jpg"
+                    alt="Leopard"
+                    width={800}
+                    height={500}
+                    className="w-full h-64 object-cover rounded-lg shadow-md"
+                  />
+                  <Image
+                    src="https://jetwingtravels.com/wp-content/uploads/2023/08/Mihintale-Anuradhapura-sri-lanka-800-x-500.jpg"
+                    alt="Leopard"
+                    width={800}
+                    height={500}
+                    className="w-full h-64 object-cover rounded-lg shadow-md"
+                  />
+          {/*<img
             src="https://via.placeholder.com/400x300?text=Leopard+1"
             alt="Leopard"
             className="w-full h-64 object-cover rounded-lg shadow-md"
@@ -126,10 +150,10 @@ const Home = () => {
             src="https://via.placeholder.com/400x300?text=Leopard+2"
             alt="Leopard"
             className="w-full h-64 object-cover rounded-lg shadow-md"
-          />
+          />*/}
         </div>{/* Description */}
         <p className="text-gray-700 max-w-2xl mx-auto mb-8">
-          "Explore the remarkable biodiversity of Yala National Park with our passionate and knowledgeable rangers. Encounter Sri Lanka's iconic wildlife, including leopards, elephants, sloth bears, and a vibrant array of birdlife. Our expert guides provide insightful narratives during safaris and nature walks, offering a deeper appreciation for the wonders of the wild."
+          {"Explore the remarkable biodiversity of Yala National Park with our passionate and knowledgeable rangers. Encounter Sri Lanka's iconic wildlife, including leopards, elephants, sloth bears, and a vibrant array of birdlife. Our expert guides provide insightful narratives during safaris and nature walks, offering a deeper appreciation for the wonders of the wild."}
         </p>
 
         {/* Button */}
@@ -146,9 +170,13 @@ const Home = () => {
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-2xl md:text-3xl font-bold text-primary text-center mb-6 md:mb-8">INSTAGRAM</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-          {images.map((img, index) => (
+          {/*{images.map((img, index) => (
             <img key={index} src={img} alt={`Gallery ${index}`} className="w-full h-48 object-cover rounded-lg" />
+          ))}*/}
+          {images.map((img, index) => (
+            <Image key={index} src={img} alt={`Gallery ${index}`} width={400} height={300} className="w-full h-48 object-cover rounded-lg" />
           ))}
+
         </div>
       </div>
     </section>
@@ -160,5 +188,5 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
 

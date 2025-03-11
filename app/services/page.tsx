@@ -215,7 +215,7 @@ const Services = () => {
     </section>
 
     {/* border */}
-    {/*<div className="border border-white/20"></div>*/}
+    <div className="border border-white/20"></div>
 
     {/* Footer */}
         <Footer />

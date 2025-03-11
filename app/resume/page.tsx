@@ -170,8 +170,17 @@ const skills = {
 const Resume = () => {
   return (
     <>
+    {/* merge two photos */}
+    {/* style={{
+      backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), 
+        url(https://images.unsplash.com/photo-1487621167305-5d248087c724?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D), 
+        url(https://plus.unsplash.com/premium_photo-1733353295753-c4e396c6c8ae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dHJhdmVsbGluZyUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww)`,
+      backgroundBlendMode: "overlay",
+    }}> */}
     <section className="bg-cover bg-center min-h-screen relative"
-            style={{ backgroundImage: `url('https://jetwingtravels.com/wp-content/uploads/2023/11/Jetwing-Travel-slider2-1920x1080-1.jpg')` }}>
+        style={{ backgroundImage: `url(https://images.unsplash.com/photo-1487621167305-5d248087c724?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)` }}>
+          <div className="absolute bottom-0 w-full h-32 bg-gradient-to-b from-transparent to-primary"></div>
+            {/*style={{ backgroundImage: `url('https://jetwingtravels.com/wp-content/uploads/2023/11/Jetwing-Travel-slider2-1920x1080-1.jpg')` }}>*/}
             {/*<div className="absolute inset-0 bg-black bg-opacity-50"></div>*/}
             <div className="container mx-auto pt-72 px-4 h-full flex flex-col justify-center items-center text-white">
               <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
@@ -196,6 +205,10 @@ const Resume = () => {
             </div>
     
           </section>
+          {/*https://images.unsplash.com/photo-1462290625486-c142817fb94d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D*/}
+          <section className="bg-cover bg-center min-h-screen relative"
+            style={{ backgroundImage: ` url(https://images.unsplash.com/photo-1487525219605-eadb39ae229c?q=80&w=1991&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)` }}>
+              {/*<div className="absolute bottom-0 w-full h-32 bg-gradient-to-b from-transparent to-black"></div>*/}
     <motion.div 
       initial={{ opacity: 0 }}
       animate={{
@@ -307,9 +320,11 @@ const Resume = () => {
         </Tabs>
       </div>
     </motion.div>
+    </section>
+
 
     {/* border */}
-    <div className="border border-white/20"></div>
+    {/*<div className="border border-white/20"></div>*/}
 
     {/* Footer */}
         <Footer />

@@ -10,7 +10,8 @@ interface DestinationProps {
   const DestinationCard: React.FC<DestinationProps> = ({ image, title, description, link }) => {
     return (
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-        <Image src={image} alt={title} className="w-full h-64 object-cover" />
+        <Image src={image} alt={title} width={800}
+          height={500} className="w-full h-64 object-cover" />
         <div className="p-6">
           <h3 className="text-2xl text-primary font-semibold">{title}</h3>
           <p className="text-pink-500 text-sm font-semibold my-2">● Destinations</p>

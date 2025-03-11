@@ -2,6 +2,18 @@
   "app": {
     "[project]/app/page": [
       "static/media/tDbV2o_flEEny0FZhsfKu5WU4xD7OwGtT0rU-s.p.f260072f.woff2"
+    ],
+    "[project]/app/services/page": [
+      "static/media/tDbV2o_flEEny0FZhsfKu5WU4xD7OwGtT0rU-s.p.f260072f.woff2"
+    ],
+    "[project]/app/anuradapura/page": [
+      "static/media/tDbV2o_flEEny0FZhsfKu5WU4xD7OwGtT0rU-s.p.f260072f.woff2"
+    ],
+    "[project]/app/resume/page": [
+      "static/media/tDbV2o_flEEny0FZhsfKu5WU4xD7OwGtT0rU-s.p.f260072f.woff2"
+    ],
+    "[project]/app/contact/page": [
+      "static/media/tDbV2o_flEEny0FZhsfKu5WU4xD7OwGtT0rU-s.p.f260072f.woff2"
     ]
   },
   "appUsingSizeAdjust": true,

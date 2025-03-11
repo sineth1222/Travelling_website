@@ -8,21 +8,21 @@ import Image from "next/image";
 const Home = () => {
 
   const rooms = [
-    { name: "Deluxe Room", price: "$150/night", img: "https://via.placeholder.com/400x300?text=Deluxe+Room" },
+    { name: "Deluxe Room", price: "$150/night", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb" },
     { name: "Suite", price: "$250/night", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb" },
-    { name: "Deluxe Room1", price: "$150/night", img: "https://via.placeholder.com/400x300?text=Deluxe+Room" },
-    { name: "Suitwe", price: "$250/night", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb" },
+    { name: "Deluxe Room1", price: "$150/night", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb" },
+    { name: "Suitwe", price: "$250/night", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb"},
   ];
   const images = [
     "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
     "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-    "https://via.placeholder.com/400x300?text=Gallery+3",
-    "https://via.placeholder.com/400x300?text=Gallery+4",
+    "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
   ];
 
   return (
                 <><section className="bg-cover bg-center min-h-screen relative"
-        style={{ backgroundImage: `url('https://images.unsplash.com/photo-1506744038136-46273834b3fb')` }}>
+        style={{ backgroundImage: `url(https://images.unsplash.com/photo-1506744038136-46273834b3fb)` }}>
         {/*<div className="absolute inset-0 bg-black bg-opacity-50"></div>*/}
         <div className="container mx-auto pt-72 px-4 h-full flex flex-col justify-center items-center text-black">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">

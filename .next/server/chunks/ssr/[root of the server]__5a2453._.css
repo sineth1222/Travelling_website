@@ -1108,6 +1108,10 @@ body {
   height: 100vh;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .max-h-96 {
   max-height: 24rem;
 }
@@ -1503,6 +1507,36 @@ body {
 
 .bg-opacity-50 {
   --tw-bg-opacity: .5;
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.from-transparent {
+  --tw-gradient-from: transparent var(--tw-gradient-from-position);
+  --tw-gradient-to: #0000 var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-black {
+  --tw-gradient-to: #000 var(--tw-gradient-to-position);
+}
+
+.to-primary {
+  --tw-gradient-to: #1c1c22 var(--tw-gradient-to-position);
+}
+
+.to-black\/5 {
+  --tw-gradient-to: #0000000d var(--tw-gradient-to-position);
+}
+
+.to-black\/10 {
+  --tw-gradient-to: #0000001a var(--tw-gradient-to-position);
+}
+
+.to-black\/20 {
+  --tw-gradient-to: #0003 var(--tw-gradient-to-position);
 }
 
 .bg-cover {

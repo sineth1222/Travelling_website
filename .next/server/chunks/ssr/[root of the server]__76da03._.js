@@ -81,13 +81,13 @@ const Nav = ()=>{
                 children: link.name
             }, index, false, {
                 fileName: "[project]/components/Nav.tsx",
-                lineNumber: 36,
+                lineNumber: 35,
                 columnNumber: 13
             }, this);
         })
     }, void 0, false, {
         fileName: "[project]/components/Nav.tsx",
-        lineNumber: 34,
+        lineNumber: 33,
         columnNumber: 5
     }, this);
 };

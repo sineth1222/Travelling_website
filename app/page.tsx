@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Socials from "@/components/Socials";
-import { Button } from "@/components/ui/button"
-import { MdOutlineTravelExplore } from "react-icons/md";
+//import { Button } from "@/components/ui/button"
+//import { MdOutlineTravelExplore } from "react-icons/md";
 import Image from "next/image";
 
 

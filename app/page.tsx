@@ -8,10 +8,10 @@ import Image from "next/image";
 const Home = () => {
 
   const rooms = [
-    { name: "Deluxe Room", price: "$150/night", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb" },
-    { name: "Suite", price: "$250/night", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb" },
-    { name: "Deluxe Room1", price: "$150/night", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb" },
-    { name: "Suitwe", price: "$250/night", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb"},
+    { name: "Sigiriya Rock", price: "Day/night", img: "/assets/sigiriya.jpg" },
+    { name: "Pidurangala Rock", price: "Day/night", img: "/assets/piduranagala.jpeg" },
+    { name: "Udawalawa National Park", price: "Day/night", img: "/assets/udawalawa.jpeg" },
+    { name: "Arugam Bay", price: "Day/night", img: "/assets/arugambay.jpeg"},
   ];
   const images = [
     "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
@@ -37,12 +37,12 @@ const Home = () => {
             <Socials containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-black rounded-full flex justify-center items-center text-black text-base hover:bg-primary hover:text-accent hover:trasition-all duration-500" />
           </div>
 
-          <div className="flex flex-col xl:flex-row items-center gap-8">
+          {/*<div className="flex flex-col xl:flex-row items-center gap-8">
           <Button variant="outline" size="lg" className="uppercase flex items-center gap-2 border border-white rounded-ful justify-center text-white text-base hover:bg-white hover:text-primary hover:trasition-all duration-500">
               <MdOutlineTravelExplore href="/contact" className="text-xl" />
               <span>See More ...</span>
           </Button>
-          </div>
+          </div>*/}
 
         </div>
 
@@ -84,7 +84,9 @@ const Home = () => {
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800">{room.name}</h3>
                 <p className="text-gray-600">{room.price}</p>
+                <a href="/contact">
                 <button className="mt-4 bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">Book Now</button>
+                </a>
               </div>
             </div>
           ))}
@@ -110,28 +112,28 @@ const Home = () => {
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 text-center z-10">
         {/* Title and Subtitle */}
-        <h2 className="text-2xl md:text-3xl text-primary font-bold text-center mb-4 md:mb-4">YALA NATIONAL PARK</h2>
-        <p className="text-lg text-gray-600 mb-8">WHERE THE JUNGLE MEETS THE INDIAN OCEAN</p>
+        <h2 className="text-2xl md:text-3xl text-primary font-bold text-center mb-4 md:mb-4">ELLA SRILANKA</h2>
+        <p className="text-lg text-gray-600 mb-8">WHERE THE MOUNTAIN MEETS THE INDIAN OCEAN</p>
         
         {/* Image Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <Image
-                    src="https://jetwingtravels.com/wp-content/uploads/2023/08/jaya-sri-maha-bodhi-800-x-500.jpg"
-                    alt="Leopard"
+                    src="https://destinationlesstravel.com/wp-content/uploads/2020/04/Ella-train-960x641.jpg.webp"
+                    alt="nine arch bright"
                     width={800}
                     height={500}
                     className="w-full h-64 object-cover rounded-lg shadow-md"
                   />
                   <Image
-                    src="https://jetwingtravels.com/wp-content/uploads/2023/08/Ruwanwelisaya-Stupa-Anuradhapura-golden-triangle-sri-lanka-800-x-500.jpg"
-                    alt="Leopard"
+                    src="https://destinationlesstravel.com/wp-content/uploads/2019/05/DSC_9675-2-1024x684.jpg.webp"
+                    alt="ella"
                     width={800}
                     height={500}
                     className="w-full h-64 object-cover rounded-lg shadow-md"
                   />
                   <Image
-                    src="https://jetwingtravels.com/wp-content/uploads/2023/08/Mihintale-Anuradhapura-sri-lanka-800-x-500.jpg"
-                    alt="Leopard"
+                    src="https://destinationlesstravel.com/wp-content/uploads/2020/04/Ella-rock-960x640.jpg.webp"
+                    alt="ella rock"
                     width={800}
                     height={500}
                     className="w-full h-64 object-cover rounded-lg shadow-md"
@@ -153,15 +155,15 @@ const Home = () => {
           />*/}
         </div>{/* Description */}
         <p className="text-gray-700 max-w-2xl mx-auto mb-8">
-          {"Explore the remarkable biodiversity of Yala National Park with our passionate and knowledgeable rangers. Encounter Sri Lanka's iconic wildlife, including leopards, elephants, sloth bears, and a vibrant array of birdlife. Our expert guides provide insightful narratives during safaris and nature walks, offering a deeper appreciation for the wonders of the wild."}
+          {"Located in the vast tea plantations of Sri Lanka’s cultural center, Ella is one of the most popular places to visit in Sri Lanka. Because of this, Ella was at the top of our Sri Lanka bucket list, and even with such high expectations, we weren’t disappointed! So you can not only see the famous bridge but also experience everything else this town has to offer. our time in Ella was fun and memorable."}
         </p>
 
         {/* Button */}
         <a
-          href="#"
+          href="/contact"
           className="inline-block bg-red-700 text-white px-6 py-3 rounded-full hover:bg-red-800 transition duration-300"
         >
-          SAFARI EXCURSIONS
+          TRAVEL EXCURSIONS
         </a>
       </div>
     </section>

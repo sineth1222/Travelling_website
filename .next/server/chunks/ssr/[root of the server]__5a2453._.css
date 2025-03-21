@@ -1024,6 +1024,10 @@ body {
   height: .875rem;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .h-4 {
   height: 1rem;
 }
@@ -1106,10 +1110,6 @@ body {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-32 {
-  height: 8rem;
 }
 
 .max-h-96 {
@@ -1525,18 +1525,6 @@ body {
 
 .to-primary {
   --tw-gradient-to: #1c1c22 var(--tw-gradient-to-position);
-}
-
-.to-black\/5 {
-  --tw-gradient-to: #0000000d var(--tw-gradient-to-position);
-}
-
-.to-black\/10 {
-  --tw-gradient-to: #0000001a var(--tw-gradient-to-position);
-}
-
-.to-black\/20 {
-  --tw-gradient-to: #0003 var(--tw-gradient-to-position);
 }
 
 .bg-cover {

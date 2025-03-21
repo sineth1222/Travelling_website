@@ -173,7 +173,7 @@ const Home = () => {
                 <h3 className="text-xl font-semibold text-gray-800">{room.name}</h3>
                 <p className="text-gray-600">{room.price}</p>
                 <a href="/contact">
-                <button className="mt-4 bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">Book Now</button>
+                <button className="mt-4 bg-accent text-white px-4 py-2 rounded hover:bg-yellow-600">Book Now</button>
                 </a>
               </div>
             </div>
@@ -249,7 +249,7 @@ const Home = () => {
         {/* Button */}
         <a
           href="/contact"
-          className="inline-block bg-red-700 text-white px-6 py-3 rounded-full hover:bg-red-800 transition duration-300"
+          className="inline-block bg-accent text-white px-6 py-3 rounded-full hover:bg-yellow-600 transition duration-300"
         >
           TRAVEL EXCURSIONS
         </a>

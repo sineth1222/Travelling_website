@@ -1,8 +1,19 @@
+"use client";
+
 import Footer from "@/components/Footer";
 import Socials from "@/components/Socials";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+//import { TooltipProvider } from "@radix-ui/react-tooltip";
+//import { Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs"
+//import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import { motion } from "framer-motion";
 //import { Button } from "@/components/ui/button"
 //import { MdOutlineTravelExplore } from "react-icons/md";
 import Image from "next/image";
+import Link from "next/link";
+import { FaFacebook, FaInstagram, FaWhatsapp, FaLinkedin, FaViber, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa"
 
 
 const Home = () => {
@@ -14,11 +25,88 @@ const Home = () => {
     { name: "Arugam Bay", price: "Day/night", img: "/assets/arugambay.jpeg"},
   ];
   const images = [
-    "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-    "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-    "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
-    "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    "/assets/inst5.jpg",
+    "/assets/inst7.jpg",
+    "/assets/inst3.jpg",
+    "/assets/inst8.jpg",
   ];
+
+  const about = {
+    title: "About me",
+    description: "Hi, Im Sineth, the founder and guide of sineth travells. As a proud Sri Lankan, I have a deep passion for showcasing the beauty, culture, and hidden gems of my country to travelers from around the world. ",
+    info: [
+      {
+        fieldName: "Name",
+        fieldValue: "G.B.Sineth Mashenka",
+      },
+      {
+        fieldName: "Phone",
+        fieldValue: "(+94) 705089955",
+      },
+      {
+        fieldName: "Experience",
+        fieldValue: "1+ Years",
+      },
+      {
+        fieldName: "Email",
+        fieldValue: "sineth mashenka1222@gmail.com",
+      },
+      {
+        fieldName: "Nationality",
+        fieldValue: "Srilankan",
+      },
+      {
+        fieldName: "Linkedin",
+        fieldValue: "Sineth Mashenka",
+      },
+      {
+        fieldName: "Freelance",
+        fieldValue: "Available",
+      },
+      {
+        fieldName: "Languages",
+        fieldValue: "English, Sinhala",
+      },
+    ]
+  };
+
+  const skills = {
+    title: "Contact Me",
+    description: "Welcome to sineth travells! We are your trusted travel partner in Sri Lanka, offering unforgettable guided tours across this beautiful island. ",
+    skillList: [
+      {
+        icon: <FaFacebook />,
+        name: "Facebook",
+        path: "https://www.linkedin.com/in/sineth-mashenka-113122241/",
+      },
+      {
+        icon: <FaInstagram />,
+        name: "Instagram",
+        path: "https://www.linkedin.com/in/sineth-mashenka-113122241/",
+      },
+      {
+        icon: <FaLinkedin />,
+        name: "Linkedin",
+        path: "https://www.linkedin.com/in/sineth-mashenka-113122241/",
+      },
+      {
+        icon: <FaWhatsapp />,
+        name: "Whatsapp",
+        path: "https://www.linkedin.com/in/sineth-mashenka-113122241/",
+      },
+      {
+        icon: <FaMapMarkerAlt />,
+        name: "Adderess",
+        path: "/contact",
+      },
+      {
+        icon: <FaPhoneAlt />,
+        name: "Phone",
+        path: "/contact",
+      },
+    ]
+  
+  };
 
   return (
                 <><section className="bg-cover bg-center min-h-screen relative"
@@ -112,7 +200,7 @@ const Home = () => {
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 text-center z-10">
         {/* Title and Subtitle */}
-        <h2 className="text-2xl md:text-3xl text-primary font-bold text-center mb-4 md:mb-4">ELLA SRILANKA</h2>
+        <h2 className="text-2xl md:text-3xl text-primary font-bold text-center mb-4 md:mb-4">ELLA SRI LANKA</h2>
         <p className="text-lg text-gray-600 mb-8">WHERE THE MOUNTAIN MEETS THE INDIAN OCEAN</p>
         
         {/* Image Grid */}
@@ -166,6 +254,88 @@ const Home = () => {
           TRAVEL EXCURSIONS
         </a>
       </div>
+    </section>
+
+    {/* about me and contact us */}
+    
+          {/*https://images.unsplash.com/photo-1462290625486-c142817fb94d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D*/}
+          <section className="bg-cover bg-center min-h-screen relative py-16"
+            style={{ backgroundImage: ` url(https://images.unsplash.com/photo-1487525219605-eadb39ae229c?q=80&w=1991&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)` }}>
+              {/*<div className="absolute bottom-0 w-full h-32 bg-gradient-to-b from-transparent to-black"></div>*/}
+              <div className="max-w-7xl mx-auto px-4">
+              {/* Title and Subtitle */}
+        <h2 className="text-2xl md:text-3xl text-white font-bold text-center mb-4 md:mb-4">GET IN TOUCH</h2>
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{
+              opacity: 1,
+              transition: { delay: 2.4, duration: 0.4, ease: "easeIn"},
+            }} className="min-h-[80vh] flex items-center justify-center py-1 xl:py-0">
+            <div className="container mx-auto px-4 py-12">
+              <Tabs defaultValue="skills" className="flex flex-col xl:flex-row gap-[60px]">
+                <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
+                  {/*<TabsTrigger value="experience">Experience</TabsTrigger>
+                  <TabsTrigger value="education">Education</TabsTrigger>*/}
+                  <TabsTrigger value="skills">Contact Me</TabsTrigger>
+                  <TabsTrigger value="about">About Me</TabsTrigger>
+                </TabsList>
+
+          {/* content */}
+          <div className="min-h-[70vh] w-full">
+            
+
+            {/* skills */}
+            <TabsContent value="skills" className="w-full h-full">
+                <div className="flex flex-col gap-[30px]">
+                  <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                    <h3 className="text-4xl font-bold">{skills.title}</h3>
+                    <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{skills.description}</p>
+                  </div>
+                  <ScrollArea className="h-[400px]">
+                  <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
+                    {skills.skillList.map((skill, index) => {
+                      return <Link key={index} href={skill.path}>
+                        <TooltipProvider delayDuration={100}>
+                          <Tooltip>
+                            <TooltipTrigger className="w-full h-[184px] bg-[#232329] rounded-xl flex flex-col justify-center items-center group">
+                            <span className="text-accent py-4">{skill.name}</span>
+                              <div className="text-6xl group-hover:text-accent transition-all duration-300 pb-6">{skill.icon}</div>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                              <p className="capitalize">{skill.name}</p>
+                            </TooltipContent>
+                          </Tooltip>
+                        </TooltipProvider>
+                      </Link>
+                    })}
+                  </ul>
+                  </ScrollArea>
+                </div>
+            </TabsContent>
+
+            {/* about */}
+            <TabsContent value="about" className="w-full text-center xl:text-left">
+                    <div className="flex flex-col gap-[30px]">
+                      <h3 className="text-4xl font-bold">{about.title}</h3>
+                      <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
+                      <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
+                        {about.info.map((item, index) => {
+                          return (
+                            <li key={index}
+                            className="flex items-center justify-center xl:justify-start gap-4">
+                              <span className="text-white/60">{item.fieldName}</span>
+                              <span className="text-xl">{item.fieldValue}</span>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+            </TabsContent>
+          </div>
+        </Tabs>
+      </div>
+    </motion.div>
+    </div>
     </section>
 
     <section id="gallery" className="py-16 bg-gray-100">

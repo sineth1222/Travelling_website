@@ -20,10 +20,6 @@ const links = [
         path: '/resume'
     },
     {
-        name: 'about Us',
-        path: '/work'
-    },
-    {
         name: 'contact',
         path: '/contact'
     }

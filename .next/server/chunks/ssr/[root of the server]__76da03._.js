@@ -61,10 +61,6 @@ const links = [
         path: "/resume"
     },
     {
-        name: "About Us",
-        path: "/work"
-    },
-    {
         name: "contact",
         path: "/contact"
     }
@@ -81,13 +77,13 @@ const Nav = ()=>{
                 children: link.name
             }, index, false, {
                 fileName: "[project]/components/Nav.tsx",
-                lineNumber: 35,
+                lineNumber: 31,
                 columnNumber: 13
             }, this);
         })
     }, void 0, false, {
         fileName: "[project]/components/Nav.tsx",
-        lineNumber: 33,
+        lineNumber: 29,
         columnNumber: 5
     }, this);
 };
@@ -292,10 +288,6 @@ const links = [
         path: '/resume'
     },
     {
-        name: 'about Us',
-        path: '/work'
-    },
-    {
         name: 'contact',
         path: '/contact'
     }
@@ -310,17 +302,17 @@ const MobileNav = ()=>{
                     className: "text-[32px] text-accent",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ci$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CiMenuFries"], {}, void 0, false, {
                         fileName: "[project]/components/MobileNav.tsx",
-                        lineNumber: 38,
+                        lineNumber: 34,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/MobileNav.tsx",
-                    lineNumber: 37,
+                    lineNumber: 33,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/MobileNav.tsx",
-                lineNumber: 36,
+                lineNumber: 32,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$sheet$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SheetContent"], {
@@ -339,23 +331,23 @@ const MobileNav = ()=>{
                                         children: "Travels."
                                     }, void 0, false, {
                                         fileName: "[project]/components/MobileNav.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 40,
                                         columnNumber: 71
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/MobileNav.tsx",
-                                lineNumber: 44,
+                                lineNumber: 40,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/MobileNav.tsx",
-                            lineNumber: 43,
+                            lineNumber: 39,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/MobileNav.tsx",
-                        lineNumber: 42,
+                        lineNumber: 38,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -367,25 +359,25 @@ const MobileNav = ()=>{
                                 children: link.name
                             }, index, false, {
                                 fileName: "[project]/components/MobileNav.tsx",
-                                lineNumber: 51,
+                                lineNumber: 47,
                                 columnNumber: 29
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/components/MobileNav.tsx",
-                        lineNumber: 48,
+                        lineNumber: 44,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/MobileNav.tsx",
-                lineNumber: 41,
+                lineNumber: 37,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/MobileNav.tsx",
-        lineNumber: 35,
+        lineNumber: 31,
         columnNumber: 9
     }, this);
 };

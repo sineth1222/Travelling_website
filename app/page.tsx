@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 //import { MdOutlineTravelExplore } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebook, FaInstagram, FaWhatsapp, FaLinkedin, FaViber, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa"
+import { FaFacebook, FaInstagram, FaWhatsapp, FaLinkedin, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa"
 
 
 const Home = () => {

@@ -592,10 +592,6 @@ body {
   height: 2.25rem;
 }
 
-.h-\[150px\] {
-  height: 150px;
-}
-
 .h-\[184px\] {
   height: 184px;
 }
@@ -1048,11 +1044,6 @@ body {
   background-color: #ffffff0d;
 }
 
-.bg-yellow-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
-}
-
 .bg-opacity-50 {
   --tw-bg-opacity: .5;
 }
@@ -1186,6 +1177,10 @@ body {
   padding-bottom: 2rem;
 }
 
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
 .pl-8 {
   padding-left: 2rem;
 }
@@ -1196,14 +1191,6 @@ body {
 
 .pt-72 {
   padding-top: 18rem;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
 }
 
 .text-center {

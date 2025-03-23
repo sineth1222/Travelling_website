@@ -9,8 +9,8 @@ const Footer = () => {
     <footer className="bg-primary text-white py-8">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h4 className="text-base md:text-lg font-bold mb-4">Sineth Travels</h4>
-            <p className="text-xs md:text-sm">A part of the Jetwing family, our journey began in 1980 to show visitors from near and far, the wonders of the paradise we call home. Today, we are a leading destination management company renowned for our legendary hospitality.</p>
+            <h4 className="text-base md:text-lg font-bold mb-4">Tharu Travels</h4>
+            <p className="text-xs md:text-sm">A part of the Tharu family, our journey began in 2010 to show visitors from near and far, the wonders of the paradise we call home. Today, we are a leading destination management company renowned for our legendary hospitality.</p>
           </div>
           <div>
             <h4 className="text-base md:text-lg font-bold mb-4">Quick Links</h4>

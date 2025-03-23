@@ -337,7 +337,7 @@ const Footer = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xs md:text-sm",
-                                    children: "A part of the Jetwing family, our journey began in 1980 to show visitors from near and far, the wonders of the paradise we call home. Today, we are a leading destination management company renowned for our legendary hospitality."
+                                    children: "A part of the Tharu family, our journey began in 2010 to show visitors from near and far, the wonders of the paradise we call home. Today, we are a leading destination management company renowned for our legendary hospitality."
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.tsx",
                                     lineNumber: 13,
@@ -525,7 +525,7 @@ const social = [
             lineNumber: 6,
             columnNumber: 13
         }, this),
-        path: "https://github.com/sineth1222"
+        path: "https://www.instagram.com/tharu_tours_srilanka/"
     },
     {
         Icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaLinkedin"], {}, void 0, false, {
@@ -533,7 +533,7 @@ const social = [
             lineNumber: 7,
             columnNumber: 13
         }, this),
-        path: "https://www.linkedin.com/in/sineth-mashenka-113122241/"
+        path: "https://www.linkedin.com/in/tharu-tours-sri-lanka-980176358/"
     },
     {
         Icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaFacebook"], {}, void 0, false, {
@@ -541,7 +541,7 @@ const social = [
             lineNumber: 8,
             columnNumber: 13
         }, this),
-        path: "https://web.facebook.com/profile.php?id=100086166321782"
+        path: "https://web.facebook.com/profile.php?id=61574528433221"
     },
     {
         Icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaWhatsapp"], {}, void 0, false, {
@@ -549,7 +549,7 @@ const social = [
             lineNumber: 9,
             columnNumber: 13
         }, this),
-        path: "https://www.linkedin.com/in/sineth-mashenka-113122241/"
+        path: "/contact"
     }
 ];
 const Socials = ({ containerStyles, iconStyles })=>{
@@ -609,7 +609,7 @@ const info = [
             columnNumber: 11
         }, this),
         title: "Phone",
-        description: "(+94) 705 089 955"
+        description: "(+94) 779 149 530"
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaEnvelope"], {}, void 0, false, {
@@ -618,7 +618,7 @@ const info = [
             columnNumber: 11
         }, this),
         title: "Email",
-        description: "sinethmashenka1222 @gmail.com"
+        description: "tharutravells@gmail.com"
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaMapMarkerAlt"], {}, void 0, false, {
@@ -627,7 +627,7 @@ const info = [
             columnNumber: 11
         }, this),
         title: "Address",
-        description: "38/B kudawella central nakulugamuwa srilanka"
+        description: "kaluthara srilanka"
     }
 ];
 const Contact = ()=>{
@@ -716,7 +716,7 @@ const Contact = ()=>{
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-white/60",
-                                            children: "A part of the Jetwing family, our journey began in 1980 to show visitors from near and far, the wonders of the paradise we call home. Today, we are a leading destination management company renowned for our legendary hospitality."
+                                            children: "A part of the Tharu family, our journey began in 2010 to show visitors from near and far, the wonders of the paradise we call home. Today, we are a leading destination management company renowned for our legendary hospitality."
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact/page.tsx",
                                             lineNumber: 78,
@@ -791,7 +791,7 @@ const Contact = ()=>{
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
                                                                 value: "est",
-                                                                children: "Web Development"
+                                                                children: "Honeymoon"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/contact/page.tsx",
                                                                 lineNumber: 93,
@@ -799,7 +799,7 @@ const Contact = ()=>{
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
                                                                 value: "cst",
-                                                                children: "UI/UX Design"
+                                                                children: "Ella Tour"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/contact/page.tsx",
                                                                 lineNumber: 94,
@@ -807,7 +807,7 @@ const Contact = ()=>{
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$select$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SelectItem"], {
                                                                 value: "mst",
-                                                                children: "Logo Design"
+                                                                children: "Beach Side"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/contact/page.tsx",
                                                                 lineNumber: 95,

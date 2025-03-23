@@ -15,17 +15,17 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "(+94) 705 089 955"
+    description: "(+94) 779 149 530"
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "sinethmashenka1222 @gmail.com"
+    description: "tharutravells@gmail.com"
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "38/B kudawella central nakulugamuwa srilanka"
+    description: "kaluthara srilanka"
   }
 ];
 
@@ -75,7 +75,7 @@ const Contact = () => {
           <div className="xl:w-[54%] order-2 xl:order-none">
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-accent">{"Let's travel together"}</h3>
-              <p className="text-white/60">{"A part of the Jetwing family, our journey began in 1980 to show visitors from near and far, the wonders of the paradise we call home. Today, we are a leading destination management company renowned for our legendary hospitality."}</p>
+              <p className="text-white/60">{"A part of the Tharu family, our journey began in 2010 to show visitors from near and far, the wonders of the paradise we call home. Today, we are a leading destination management company renowned for our legendary hospitality."}</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input type="firstname" placeholder="Firstname"/>
                 <Input type="lastname" placeholder="Lastname"/>
@@ -90,9 +90,9 @@ const Contact = () => {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a package</SelectLabel>
-                    <SelectItem value="est">Web Development</SelectItem>
-                    <SelectItem value="cst">UI/UX Design</SelectItem>
-                    <SelectItem value="mst">Logo Design</SelectItem>
+                    <SelectItem value="est">Honeymoon</SelectItem>
+                    <SelectItem value="cst">Ella Tour</SelectItem>
+                    <SelectItem value="mst">Beach Side</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>

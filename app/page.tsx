@@ -25,31 +25,31 @@ const Home = () => {
     { name: "Arugam Bay", price: "Day/night", img: "/assets/arugambay.jpeg"},
   ];
   const images = [
-    "/assets/inst5.jpg",
-    "/assets/inst7.jpg",
-    "/assets/inst3.jpg",
-    "/assets/inst8.jpg",
+    "/assets/inst10.png",
+    "/assets/inst12.png",
+    "/assets/inst9.png",
+    "/assets/inst11.png",
   ];
 
   const about = {
     title: "About me",
-    description: "Hi, Im Sineth, the founder and guide of sineth travells. As a proud Sri Lankan, I have a deep passion for showcasing the beauty, culture, and hidden gems of my country to travelers from around the world. ",
+    description: "Hi, Im Tharindu, the founder and guide of Tharu travels. As a proud Sri Lankan, I have a deep passion for showcasing the beauty, culture, and hidden gems of my country to travelers from around the world. ",
     info: [
       {
         fieldName: "Name",
-        fieldValue: "G.B.Sineth Mashenka",
+        fieldValue: "Tharindu",
       },
       {
         fieldName: "Phone",
-        fieldValue: "(+94) 705089955",
+        fieldValue: "(+94) 779149530",
       },
       {
         fieldName: "Experience",
-        fieldValue: "1+ Years",
+        fieldValue: "10+ Years",
       },
       {
         fieldName: "Email",
-        fieldValue: "sineth mashenka1222@gmail.com",
+        fieldValue: "tharutravells@gmail.com",
       },
       {
         fieldName: "Nationality",
@@ -57,42 +57,38 @@ const Home = () => {
       },
       {
         fieldName: "Linkedin",
-        fieldValue: "Sineth Mashenka",
-      },
-      {
-        fieldName: "Freelance",
-        fieldValue: "Available",
+        fieldValue: "Tharu Tours Sri Lanka",
       },
       {
         fieldName: "Languages",
-        fieldValue: "English, Sinhala",
+        fieldValue: "English, Russian, Spanish, Sinhala",
       },
     ]
   };
 
   const skills = {
     title: "Contact Me",
-    description: "Welcome to sineth travells! We are your trusted travel partner in Sri Lanka, offering unforgettable guided tours across this beautiful island. ",
+    description: "Welcome to Tharu travels! We are your trusted travel partner in Sri Lanka, offering unforgettable guided tours across this beautiful island. ",
     skillList: [
       {
         icon: <FaFacebook />,
         name: "Facebook",
-        path: "https://www.linkedin.com/in/sineth-mashenka-113122241/",
+        path: "https://web.facebook.com/profile.php?id=61574528433221",
       },
       {
         icon: <FaInstagram />,
         name: "Instagram",
-        path: "https://www.linkedin.com/in/sineth-mashenka-113122241/",
+        path: "https://www.instagram.com/tharu_tours_srilanka/",
       },
       {
         icon: <FaLinkedin />,
         name: "Linkedin",
-        path: "https://www.linkedin.com/in/sineth-mashenka-113122241/",
+        path: "https://www.linkedin.com/in/tharu-tours-sri-lanka-980176358/",
       },
       {
         icon: <FaWhatsapp />,
         name: "Whatsapp",
-        path: "https://www.linkedin.com/in/sineth-mashenka-113122241/",
+        path: "/contact",
       },
       {
         icon: <FaMapMarkerAlt />,

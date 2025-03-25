@@ -1,10 +1,11 @@
-# Sineth_Mashenka-Protfolio
+# Travelling Website
 
 Hello I'm Sineth Mashenka. I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.
 
-## Vercel Link - https://sinethmashenka-protfolio--beta.vercel.app/
+## Vercel Link - https://travelling-website-psi.vercel.app/
 
-![Screenshot (476)](https://github.com/user-attachments/assets/cc15b30e-e735-499b-a6be-5efdb34810f9)
+![Screenshot (530)](https://github.com/user-attachments/assets/5c3118c7-0c82-4261-ae83-249baed55ce9)
+
 
 
 ## Getting Started
